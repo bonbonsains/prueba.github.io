@@ -1,0 +1,28 @@
+/* tipo de letra */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f31010; /*color externo*/
+    color: rgb(255, 255, 255); /* color interno*/
+    padding: 10px; /* espacio interno el ancho del espacio*/
+    text-align: center; 
+}
+
+nav {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #555;
+    color: white;
+    border: none; /* elimina el borde predeterminado de los botones*/
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+}
